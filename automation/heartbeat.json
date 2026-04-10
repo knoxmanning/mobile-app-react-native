@@ -1,0 +1,24 @@
+{
+  "status": "OK",
+  "timestamp": "2024-10-27T10:00:00Z",
+  "version": "1.2.3",
+  "environment": "production",
+  "uptime": 3600,
+  "data": {
+    "cpu_load": 0.15,
+    "memory_usage": {
+      "total": 8192,
+      "used": 2048
+    },
+    "disk_space": {
+      "total": 100000,
+      "free": 50000
+    },
+    "network_latency": 15
+  },
+  "dependencies": {
+    "database": "connected",
+    "api_gateway": "healthy",
+    "push_notifications": "operational"
+  }
+}
